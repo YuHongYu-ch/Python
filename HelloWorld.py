@@ -15,5 +15,5 @@ print(myName);
 my_name="yuyan";
 print(my_name);
 
-MyName="yuruizhe"
+MyName="111"
 print(MyName)
