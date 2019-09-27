@@ -24,6 +24,6 @@ print(type(e))
 # dict--字典--键值对
 f = {'name': 'TOM', 'age': 18}
 print(type(f))
-print(f)
+
 
 #111
