@@ -24,8 +24,9 @@ print('我的学号是%d' % stu_id)
 print('我的学号是%03d' % stu_id)
 print('我的学号是%03d' % stu_id2)
 
-#我的名字是x，今年x岁了
-print('我的名字是%s，今年%d岁了' %(name,age))
+# 我的名字是x，今年x岁了
+print('我的名字是%s，今年%d岁' % (name, age))
+print('我的名字是%s，明年%d岁' % (name, age + 1))
 
-#我的名字是x，今年x岁了,体重x公斤，学号是x
-print('我的名字是%s，今年%d岁了,体重%.2f公斤，学号是%03d' %(name,age,weight,stu_id))
+# 我的名字是x，今年x岁了,体重x公斤，学号是x
+print('我的名字是%s，今年%d岁了,体重%.2f公斤，学号是%03d' % (name, age, weight, stu_id))
