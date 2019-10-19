@@ -10,6 +10,7 @@ Path = r"C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Lib\s
 face_detector = cv2.CascadeClassifier(Path)
 names = []
 zh_name = []
+
 with open("maxmember.csv", "r", encoding='UTF-8') as csv_file:
     reader = csv.reader(csv_file)
     for item in reader:
@@ -152,4 +153,3 @@ while True:
         face_training()
     elif a == 2:
         face_ientification()
-
