@@ -14,9 +14,9 @@ zh_name = []
 with open("maxmember.csv", "r", encoding='UTF-8') as csv_file:
     reader = csv.reader(csv_file)
     for item in reader:
-        # print(item)
-        names.append(item[2])
-        zh_name.append(item[1])
+        print(item)
+        #names.append(item[2])
+        #zh_name.append(item[1])
     # print (zh_name)
 
 
